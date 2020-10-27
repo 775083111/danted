@@ -1,3 +1,9 @@
+
+sudo su root
+wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
+bash install.sh --port=10010 --user=用户名 --passwd=密码
+
+
 # Sockd
 **Dante socks5 server (v1.3.2/v1.4.2) auto-install and management script** 
 
